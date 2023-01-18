@@ -76,7 +76,7 @@
             }
         ],
         "sitemap": {
-            "baseUrl": "https://superficiasoft.github.io/",
+            "baseUrl": "https://utapoi.sub.github.io/",
             "changefreq": "weekly",
             "fileOptions": {
                 "api/*": {
@@ -85,7 +85,7 @@
             }
         },
         "xref": [
-            "https://superficiasoft.github.io/UnityXrefMaps/xrefmap.yml"
+            "https://utapoi.sub.github.io/UnityXrefMaps/xrefmap.yml"
         ],
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
