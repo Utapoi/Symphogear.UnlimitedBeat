@@ -1,0 +1,2478 @@
+fileFormatVersion: 2
+guid: 324b026c000be534b974aaac57c9af45
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BandoriInterface_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 885
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32449150a7246f41af894b42d28f314
+      internalID: 2091056939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 842
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a007958216ee304cacf3b9bdba13d26
+      internalID: 614118919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 842
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c4d0f0e6651d241881045330208a88
+      internalID: 667031667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 842
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20c5494f765e074c81455156bd56eed
+      internalID: -1995282343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_4
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 848
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297070256cf5fe249876ab03ce1451ec
+      internalID: -983361315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_5
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 852
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b3cfe400aba50439f809a19e17d8e4
+      internalID: -359599751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_6
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 895
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa55d59c7aa8bc14d95325e48c1ff6e5
+      internalID: 2005283684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_7
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 895
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a114627ef19ab419e735dd2c3326a8
+      internalID: 1458537888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_8
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 818
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75c60addee6222408560250f3c08963
+      internalID: -689135459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 813
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6199f847626a343a994b45fbaa6e7e
+      internalID: -869358417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_10
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 799
+        width: 150
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7cae174316a0341948faf074eb0482
+      internalID: 811555341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_11
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 835
+        width: 259
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dc41e743a8d984e8309aecacf96446
+      internalID: 1644430697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_12
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 835
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328fad8ae5de1b34a8f3e58e6c9b4632
+      internalID: -1482547899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_13
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 820
+        width: 129
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829d16f6123989840bc2e9cba336173b
+      internalID: -1460559013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 825
+        width: 225
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6f520e4b6c2514cb0f7cc999be8422
+      internalID: -1389799972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_15
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 738
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9776e7aef5fccea498cce760695d6d20
+      internalID: 1436318441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_16
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 758
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db597e69b597c54e91281f47f951787
+      internalID: 938555049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_17
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 725
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacfbfc3dae90504ca1e71a3e647c3ac
+      internalID: -183926503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_18
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 802
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d1f2d6b8470df4fb1a242145799ec8
+      internalID: 625214061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_19
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 802
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fafffa91079c14392bc040c7cb88b7
+      internalID: -301156365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_20
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 802
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e531a91b5b732248b24acf8ac66d9ec
+      internalID: 242808520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_21
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 802
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9422675600f24fa4d83a1bb1c912b744
+      internalID: -1636719344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_22
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 802
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da279812bfeb464aa14456a718119ec
+      internalID: -233396611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_23
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 802
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb416630f011b34087d2e59bdccc6f5
+      internalID: 801321891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_24
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 727
+        width: 68
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d85567a3890fd4e9bb2677912b22b1
+      internalID: 837448844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_25
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 734
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd2460b1d1268540ab4b7d8fa44d356
+      internalID: -744078015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_26
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 726
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac11dc08cb2c18143bf58189677b3c6a
+      internalID: 2110610087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158c0ccbf92d71f40a518b744cbab777
+      internalID: -644754250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 753
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c50995f935e32f489070238ccdc0172
+      internalID: 806344781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_29
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 753
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de71020b4d50204b865f805029e930b
+      internalID: 1670865573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 753
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d23cb578d6e4b24bab73ff4dccefda1
+      internalID: -1485607188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_31
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 770
+        width: 242
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc712465a705b2a4fb839cfa169c9ef9
+      internalID: 1411047369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_32
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 663
+        width: 91
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d4d376ca3d30d4f9c484ca86aae54d
+      internalID: -1977925741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_33
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 735
+        width: 78
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f3bdd7bbab45a4bae1549d630740c6
+      internalID: -1886787742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_34
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 661
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6636f7226c82e14498c531bc41eab0d9
+      internalID: 608464601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_35
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 661
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887a80f53982bd64aaa9e3d0a1df4ba4
+      internalID: -1732191093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efabcbfd51cf4f4ab9f79f57f63b453
+      internalID: -933259427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_37
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 673
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702f88dce3ead9e4588e0fa1bb94d246
+      internalID: 1203838703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 672
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a9b1d7bbe35e14bb1241a37a9c2579
+      internalID: -606281516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_39
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 699
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9da11d6aaa71ea45a737ac8ffcc6d2b
+      internalID: 838967227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_40
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 700
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471275670d04d624e902deeba8ed9c8f
+      internalID: -746604680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_41
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 699
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15a095bf4335e34889c4eaee3f5230e
+      internalID: -495501401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_42
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 700
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a3424bf043e7649aac918f54f70a4e
+      internalID: 640693422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_43
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 699
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4f32fadf3de4c40a8bf7b4bff42b5f
+      internalID: -1008394740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_44
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 667
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351d8bbc1434d1b4b8c8dd4c4cf339ef
+      internalID: 132759861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_45
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 677
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef63c0a9599fb246977e94a0c42a527
+      internalID: -1097419469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_46
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 618
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97199b440a6b9204981b675c49a97ada
+      internalID: -1023545028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_47
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 618
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f3baa4faa602d40b28e66b26003b09
+      internalID: 953699112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_48
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 668
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de49821b42c4b7428a97a0e4c21ae4e
+      internalID: 1143502131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_49
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 663
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70f22de7aa83cd4684ef42bb48683c9
+      internalID: -336873852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_50
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 663
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7618bb0a1db074499960d2bead2983
+      internalID: 1143143780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_51
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 663
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe1875fa286f3445bfd14c95e090b5e
+      internalID: -1212869221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_52
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 663
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ce15b6f18723644b499d426ca96583
+      internalID: -1170454473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_53
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 663
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8764684a173367046a81a0f82e5be405
+      internalID: -1942429003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_54
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 664
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d639fa8b6f58b8b4f8cab696a9bf765a
+      internalID: -807781034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_55
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 663
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123bda1cfd934494f8b0d80aeb226228
+      internalID: -417394625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_56
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 651
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d260efccffb5f41980c2a14bbaacd3
+      internalID: -986899809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_57
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 609
+        width: 41
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2522e4092eefe6545be4dcb001d365f4
+      internalID: -496977047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_58
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 609
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8e59c43eeb4a84995a85360f0504be
+      internalID: -487664106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 186
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70155e9a679470047bfdb38814bfdfcf
+      internalID: 743971239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_60
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 604
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765c7e0dbb83df64f9997b9e38a9b5a6
+      internalID: -1265682160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_61
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 600
+        width: 233
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1621e860846f140b568694a1521839
+      internalID: 124055266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_62
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 600
+        width: 211
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfac0fccb8aa7144948b5cb6299d6c1
+      internalID: 986630623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 224
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd9b35d26d728b468cbd2886b5cf1a0
+      internalID: 1573335237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_64
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 575
+        width: 662
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f1e9550580f8042a57b60c8105ee24
+      internalID: -1346463201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_65
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 500
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ee7f54cfefdde4693dbdb356c6a622
+      internalID: 147112911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_66
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 562
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec6b82e53513e24ca6d87b884a44179
+      internalID: -1470555503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 235
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594c7553569fcac419df177ca31dc34b
+      internalID: 1176622155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_68
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 487
+        width: 235
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f9d1efeb70e434e9e4371ca64da0fa
+      internalID: -1449611747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_69
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 490
+        width: 219
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e69d1b7e6264d46811afb22681655d
+      internalID: 757404910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_70
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 490
+        width: 180
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8bebba0716a0c4f8100fb1534143a9
+      internalID: 1485933562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_71
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 495
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25d91f8e77dc7241a8142a380b98aed
+      internalID: 1613800481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_72
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 448
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c206e21513dff44b386e38f38d178f
+      internalID: -121459271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_73
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 432
+        width: 398
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a638b1f67ed644a8a113902fd56f65
+      internalID: -963557720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_74
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 406
+        width: 324
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5477fe3a1ad6f4441b6ced62308e2465
+      internalID: 1557288414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 287
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57aad54d4299c14a9afb9d8638f3708
+      internalID: -1518230192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_76
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 368
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1008c9b104cf954992e179e0666b869
+      internalID: 2021901805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_77
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 289
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08de0af9b9750249b0c1fce38f7aca8
+      internalID: 1705910651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_78
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 175
+        width: 186
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ff064465d222343836f969e569690d
+      internalID: -974241996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_79
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 313
+        width: 303
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8af30955a4f7a04a965bf28f38265a3
+      internalID: -414849454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_80
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 363
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746cfb31e8f77c845940bff9de0fca47
+      internalID: 1286028889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_81
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 287
+        width: 345
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf40d52054ca1e4c9c93674b566563d
+      internalID: 1058783378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_82
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 338
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ddfffe4c85529428314f4df09354de
+      internalID: 1108674187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_83
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 313
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d174b1dea6ca554891078841e02f4f5
+      internalID: -1125677654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 505
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdd57ef20bba8c4d86a6fcbf0365594
+      internalID: -1405004765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_85
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 194
+        width: 310
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8158bfce59a47e3488a6a7c28589cca8
+      internalID: -1633518315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 521
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28fa76069167b24eba5f8d8197fcea6
+      internalID: -1803711730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_87
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 144
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc6ea763ea7fd04c902313b3bdc1341
+      internalID: 2047595112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_88
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 144
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f777e6c83bfa242b653b1069e3d8eb
+      internalID: 1924552938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_89
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 148
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d60b99e2e92834aa4e49e276df5733
+      internalID: 224616610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_90
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 118
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efccfa68aab1ed542b1588a7e46cfa17
+      internalID: -829953320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_91
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 166
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dad5161d9e24894eaa57d578cbcd047
+      internalID: 43437142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_92
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 144
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422cb659104ce5b49a28489f134df92d
+      internalID: 483037609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_93
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 123
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70fa55d33a54f74cba6f3e72f583529
+      internalID: 1810015954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_94
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 119
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc6a285ffc3dce4fbe5b299e77a9a29
+      internalID: 988194490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_95
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 119
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd92785cc4542744b636630997aebf7
+      internalID: -467148256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_96
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 142
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32672a87689c1c42aa26515d2dad3ed
+      internalID: -1382125569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_97
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 72
+        width: 148
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89071b47c374644d8dd496b85986f97
+      internalID: -2094490328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_98
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 97
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a8ac6e9bc284a44848e698efa6fe55
+      internalID: -1426034981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_99
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 118
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e64a6458f94b9489419fdd8e27ea12
+      internalID: 510663421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_100
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 72
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79bd747ba273ec4591a8c7239d5cf33
+      internalID: -1679007718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_101
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 53
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2c09753af729a499004be78988bcf5
+      internalID: -1905588435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_102
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 53
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcfd138dd617154b8ed278bb9f686c6
+      internalID: 947783323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_103
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 10
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d31cbbe6cf8e848b19aad758f23e1f
+      internalID: 467392222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_104
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 0
+        width: 166
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2e4738cb39e7342a1d5b448692784d
+      internalID: 1820629587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_105
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ea03d349e7d304488897b91168eda8
+      internalID: 1353091771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BandoriInterface_106
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62acede7e6592e6438d39bc7dad15e53
+      internalID: 422178570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BandoriInterface_86: -1803711730
+      BandoriInterface_27: -644754250
+      BandoriInterface_38: -606281516
+      BandoriInterface_82: 1108674187
+      BandoriInterface_56: -986899809
+      BandoriInterface_80: 1286028889
+      BandoriInterface_94: 988194490
+      BandoriInterface_101: -1905588435
+      BandoriInterface_63: 1573335237
+      BandoriInterface_74: 1557288414
+      BandoriInterface_85: -1633518315
+      BandoriInterface_95: -467148256
+      BandoriInterface_100: -1679007718
+      BandoriInterface_0: 2091056939
+      BandoriInterface_72: -121459271
+      BandoriInterface_20: 242808520
+      BandoriInterface_77: 1705910651
+      BandoriInterface_37: 1203838703
+      BandoriInterface_17: -183926503
+      BandoriInterface_67: 1176622155
+      BandoriInterface_90: -829953320
+      BandoriInterface_73: -963557720
+      BandoriInterface_106: 422178570
+      BandoriInterface_79: -414849454
+      BandoriInterface_96: -1382125569
+      BandoriInterface_21: -1636719344
+      BandoriInterface_88: 1924552938
+      BandoriInterface_43: -1008394740
+      BandoriInterface_66: -1470555503
+      BandoriInterface_41: -495501401
+      BandoriInterface_55: -417394625
+      BandoriInterface_81: 1058783378
+      BandoriInterface_97: -2094490328
+      BandoriInterface_19: -301156365
+      BandoriInterface_12: -1482547899
+      BandoriInterface_48: 1143502131
+      BandoriInterface_1: 614118919
+      BandoriInterface_18: 625214061
+      BandoriInterface_30: -1485607188
+      BandoriInterface_58: -487664106
+      BandoriInterface_84: -1405004765
+      BandoriInterface_4: -983361315
+      BandoriInterface_33: -1886787742
+      BandoriInterface_68: -1449611747
+      BandoriInterface_70: 1485933562
+      BandoriInterface_24: 837448844
+      BandoriInterface_23: 801321891
+      BandoriInterface_91: 43437142
+      BandoriInterface_9: -869358417
+      BandoriInterface_69: 757404910
+      BandoriInterface_104: 1820629587
+      BandoriInterface_71: 1613800481
+      BandoriInterface_2: 667031667
+      BandoriInterface_103: 467392222
+      BandoriInterface_36: -933259427
+      BandoriInterface_13: -1460559013
+      BandoriInterface_46: -1023545028
+      BandoriInterface_42: 640693422
+      BandoriInterface_7: 1458537888
+      BandoriInterface_62: 986630623
+      BandoriInterface_15: 1436318441
+      BandoriInterface_89: 224616610
+      BandoriInterface_98: -1426034981
+      BandoriInterface_26: 2110610087
+      BandoriInterface_87: 2047595112
+      BandoriInterface_16: 938555049
+      BandoriInterface_51: -1212869221
+      BandoriInterface_83: -1125677654
+      BandoriInterface_50: 1143143780
+      BandoriInterface_105: 1353091771
+      BandoriInterface_54: -807781034
+      BandoriInterface_22: -233396611
+      BandoriInterface_99: 510663421
+      BandoriInterface_29: 1670865573
+      BandoriInterface_44: 132759861
+      BandoriInterface_64: -1346463201
+      BandoriInterface_14: -1389799972
+      BandoriInterface_32: -1977925741
+      BandoriInterface_102: 947783323
+      BandoriInterface_75: -1518230192
+      BandoriInterface_28: 806344781
+      BandoriInterface_57: -496977047
+      BandoriInterface_60: -1265682160
+      BandoriInterface_47: 953699112
+      BandoriInterface_93: 1810015954
+      BandoriInterface_40: -746604680
+      BandoriInterface_11: 1644430697
+      BandoriInterface_76: 2021901805
+      BandoriInterface_45: -1097419469
+      BandoriInterface_5: -359599751
+      BandoriInterface_49: -336873852
+      BandoriInterface_34: 608464601
+      BandoriInterface_39: 838967227
+      BandoriInterface_25: -744078015
+      BandoriInterface_3: -1995282343
+      BandoriInterface_65: 147112911
+      BandoriInterface_78: -974241996
+      BandoriInterface_31: 1411047369
+      BandoriInterface_53: -1942429003
+      BandoriInterface_10: 811555341
+      BandoriInterface_52: -1170454473
+      BandoriInterface_35: -1732191093
+      BandoriInterface_6: 2005283684
+      BandoriInterface_61: 124055266
+      BandoriInterface_8: -689135459
+      BandoriInterface_92: 483037609
+      BandoriInterface_59: 743971239
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1f5e0ffe100a14ea1e7ab96eb90aaa, type: 3}
+  m_Name: FlickNote
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 6266251990681616644, guid: fd99a08c72cc40e459cc8a01abc64009, type: 3}
+  ClipDuration: 2
+  ScaledCrochetValue: 0
+  EditorSettings:
+    Center: {fileID: 2800000, guid: d1b16799cff5c4a479631b6036520d26, type: 3}
+    Start: {fileID: 0}
+    End: {fileID: 0}
+    Color: {r: 0.9150943, g: 0.30647027, b: 0.7609544, a: 1}

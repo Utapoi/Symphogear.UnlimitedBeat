@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 649aa5337732f94488e5562555f0ac5d, type: 3}
+  m_Name: ScoreSettings
+  m_EditorClassIdentifier: 
+  NoteAccuracies:
+  - Name: Perfect
+    IsMiss: 0
+    IsBreakCombo: 0
+    PercentageTheshold: 40
+    Score: 100
+    Icon: {fileID: -1518230192, guid: 324b026c000be534b974aaac57c9af45, type: 3}
+    Prefab: {fileID: 6843006704414001300, guid: c11242393521ba144a6ef575c399849a, type: 3}
+    HitSound: {fileID: 8300000, guid: b7979a52a4908d946b024aec77044229, type: 3}
+  - Name: Great
+    IsMiss: 0
+    IsBreakCombo: 0
+    PercentageTheshold: 50
+    Score: 0
+    Icon: {fileID: 0}
+    Prefab: {fileID: 0}
+    HitSound: {fileID: 8300000, guid: b1c715a75c2012348ad78e5db0be0d44, type: 3}
+  - Name: Good
+    IsMiss: 0
+    IsBreakCombo: 0
+    PercentageTheshold: 75
+    Score: 50
+    Icon: {fileID: 757404910, guid: 324b026c000be534b974aaac57c9af45, type: 3}
+    Prefab: {fileID: 0}
+    HitSound: {fileID: 8300000, guid: 488763ac581ea5141a4652cdedd9ad29, type: 3}
+  - Name: Bad
+    IsMiss: 0
+    IsBreakCombo: 1
+    PercentageTheshold: 100
+    Score: 10
+    Icon: {fileID: -2094490328, guid: 324b026c000be534b974aaac57c9af45, type: 3}
+    Prefab: {fileID: 0}
+    HitSound: {fileID: 0}
+  - Name: Miss
+    IsMiss: 1
+    IsBreakCombo: 1
+    PercentageTheshold: 0
+    Score: 0
+    Icon: {fileID: 1820629587, guid: 324b026c000be534b974aaac57c9af45, type: 3}
+    Prefab: {fileID: 0}
+    HitSound: {fileID: 0}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1f5e0ffe100a14ea1e7ab96eb90aaa, type: 3}
+  m_Name: LongNote
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4027828169968945387, guid: 28afb5175a8aa0b4c85417cd255fff99, type: 3}
+  ClipDuration: 0
+  ScaledCrochetValue: 1
+  HitSound: {fileID: 8300000, guid: ce22a0e355b144b44a29c9fd274d6a3c, type: 3}
+  EditorSettings:
+    Center: {fileID: 0}
+    Start: {fileID: 2800000, guid: 5138e93217a84ce428e33926e37b4d10, type: 3}
+    End: {fileID: 2800000, guid: 5138e93217a84ce428e33926e37b4d10, type: 3}
+    Color: {r: 1, g: 0.28949142, b: 0, a: 1}

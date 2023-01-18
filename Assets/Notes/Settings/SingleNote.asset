@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1f5e0ffe100a14ea1e7ab96eb90aaa, type: 3}
+  m_Name: SingleNote
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 6467870686687523127, guid: 12f5dd293f5fc7843b049a332e2ab21a, type: 3}
+  ClipDuration: 2
+  ScaledCrochetValue: 0
+  EditorSettings:
+    Center: {fileID: 2800000, guid: 5138e93217a84ce428e33926e37b4d10, type: 3}
+    Start: {fileID: 0}
+    End: {fileID: 0}
+    Color: {r: 0, g: 0.58708096, b: 1, a: 1}
