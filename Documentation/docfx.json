@@ -33,7 +33,7 @@
             },
             "_gitUrlPattern": "github"
         },
-        "template": [ "default", "templates/singulinkfx", "plugins/memberpage/content", "plugins/memberpage-extras" ],
+        "template": [ "default", "templates/discordfx", "plugins/memberpage/content", "plugins/memberpage-extras" ],
         "content": [
             {
                 "files": [
