@@ -52,7 +52,7 @@
                 "src": "articles",
                 "files": [
                     "toc.yml",
-                    "index.md",
+                    "*.md",
                     "**/*.md",
                     "**/*.yml"
                 ],
@@ -76,7 +76,7 @@
             }
         ],
         "sitemap": {
-            "baseUrl": "https://utapoi.sub.github.io/",
+            "baseUrl": "https://utapoi.github.io/SymphogearUnlimitedBeat",
             "changefreq": "weekly",
             "fileOptions": {
                 "api/*": {
@@ -85,7 +85,7 @@
             }
         },
         "xref": [
-            "https://utapoi.sub.github.io/UnityXrefMaps/xrefmap.yml"
+            "https://utapoi.github.io/SymphogearUnlimitedBeat/UnityXrefMaps/2022.2/xrefmap.yml"
         ],
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
