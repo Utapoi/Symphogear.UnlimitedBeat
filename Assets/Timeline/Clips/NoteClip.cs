@@ -1,6 +1,8 @@
-﻿using Symphogear.Timeline.Behaviours;
-using Symphogear.Tracks;
+﻿// Copyright (c) Utapoi Ltd <contact@utapoi.moe>
+
 using System;
+using Symphogear.Timeline.Behaviours;
+using Symphogear.Tracks;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;

@@ -53,9 +53,9 @@ namespace Symphogear.Tracks
 
         public event Action<NoteEventArgs> OnNoteTriggered;
 
-        public Note CurrentNote => m_Notes == null || m_Notes.Count == 0 ? null : m_Notes[0];
+        public Note CurrentNote => Notes == null || Notes.Count == 0 ? null : Notes[0];
 
-        protected List<Note> m_Notes;
+        protected List<Note> Notes;
 
         private Color _OriginalBackgroundColor;
 
@@ -110,32 +110,32 @@ namespace Symphogear.Tracks
 
         public void Add(Note note)
         {
-            m_Notes ??= new List<Note>();
+            Notes ??= new List<Note>();
 
             note.OnNoteTriggered += OnNoteTriggered;
-            
-            m_Notes.Add(note);
+
+            Notes.Add(note);
         }
 
         public void Remove(Note note)
         {
-            if (m_Notes == null || !m_Notes.Contains(note))
+            if (Notes == null || !Notes.Contains(note))
                 return;
 
             note.OnNoteTriggered -= OnNoteTriggered;
 
-            m_Notes.Remove(note);
+            Notes.Remove(note);
         }
 
         protected virtual void Clear()
         {
-            if (m_Notes == null)
+            if (Notes == null)
             {
-                m_Notes = new List<Note>();
+                Notes = new List<Note>();
             }
             else
             {
-                m_Notes.Clear();
+                Notes.Clear();
             }
         }
 

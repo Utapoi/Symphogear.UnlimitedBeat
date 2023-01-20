@@ -1,14 +1,9 @@
 ﻿using Symphogear.Timeline;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Symphogear.Editor.Assets.Editor.Timeline
+namespace Symphogear.Editor.Timeline
 {
     using Editor = UnityEditor.Editor;
 

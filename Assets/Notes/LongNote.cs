@@ -1,43 +1,67 @@
-﻿using Symphogear.Events;
+﻿// Copyright (c) Utapoi Ltd <contact@utapoi.moe>
+
+using Sirenix.OdinInspector;
+using Symphogear.Events;
 using Symphogear.Timeline.Clips;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace Symphogear.Notes
 {
+    /// <summary>
+    /// A <see cref="Note" /> that needs to be held and released at the right time.
+    /// </summary>
     public class LongNote : Note
     {
         #region Properties
 
+        /// <summary>
+        /// A reference to the <see cref="Transform"/> of the start <see cref="Note"/> of this <see cref="LongNote"/>.
+        /// </summary>
+        [Title("References", "General", TitleAlignments.Split)]
         public Transform StartNote;
 
+        /// <summary>
+        /// A reference to the <see cref="Transform"/> of the end <see cref="Note"/> of this <see cref="LongNote"/>.
+        /// </summary>
         public Transform EndNote;
 
-        public Color ActiveLineColor;
+        /// <summary>
+        /// A reference to the <see cref="Sprite"/> that joins the start and end <see cref="Note"/>.
+        /// </summary>
+        public SpriteRenderer Line;
 
+        /// <summary>
+        /// Indicates whether or not we should remove and destroy the note when the player doesn't active it.
+        /// </summary>
+        [Title("Settings", "General", TitleAlignments.Split)]
         public bool RemoveNoteIfMissed = true;
 
-        public LineRenderer LineRenderer;
-
+        /// <summary>
+        /// The moment the player start holding the <see cref="LongNote"/>.
+        /// </summary>
         private double _StartHoldTimeOffset;
 
+        /// <summary>
+        /// Indicates whether or not the <see cref="LongNote"/> is being held.
+        /// </summary>
         private bool _Holding;
 
         #endregion
 
         #region Behaviour Setup
 
+        /// <inheritdoc cref="Note.Setup(NoteClipInfo)"/>
         public override void Setup(NoteClipInfo clipInfo)
         {
             base.Setup(clipInfo);
 
             _Holding = false;
-            LineRenderer.positionCount = 2;
             _StartHoldTimeOffset = 0;
+            transform.rotation = NoteClipInfo.SongTrack.transform.rotation;
+            //Line.transform.rotation = NoteClipInfo.SongTrack.transform.rotation;
+            Scale = new Vector3(0.65f, 0.65f, 0.65f);
+            StartNote.transform.localScale = Scale;
+            EndNote.transform.localScale = Scale;
         }
 
         #endregion
@@ -68,12 +92,14 @@ namespace Symphogear.Notes
 
         #region Update
 
+        /// <inheritdoc cref="Note.TimelineUpdate(double, double)"/>
         public override void TimelineUpdate(double clipStartTime, double clipEndTime)
         {
             base.TimelineUpdate(clipStartTime, clipEndTime);
             UpdateLinePositions();
         }
 
+        /// <inheritdoc cref="Note.InternalUpdate(double, double)"/>
         protected override void InternalUpdate(double timeFromStart, double timeFromEnd)
         {
             if (Application.isPlaying && (State == ActiveState.PostActive || State == ActiveState.Disabled))
@@ -81,21 +107,6 @@ namespace Symphogear.Notes
 
             var deltaTStart = (float)(timeFromStart - NoteClipInfo.SongDirector.HalfCrochet);
             var deltaTEnd = (float)(timeFromEnd + NoteClipInfo.SongDirector.HalfCrochet);
-
-            if (_Holding && !AudioSource.isPlaying)
-            {
-                if (NoteClipInfo.Clip.NoteBehaviour.NoteSettings.HitSound != null && AudioSource.isActiveAndEnabled)
-                {
-                    AudioSource.clip = NoteClipInfo.Clip.NoteBehaviour.NoteSettings.HitSound;
-                    AudioSource.loop = true;
-
-                    AudioSource.Play();
-                }
-            }
-            else if (AudioSource.isPlaying && !_Holding)
-            {
-                AudioSource.Stop();
-            }
 
             if (_Holding)
             {
@@ -129,23 +140,28 @@ namespace Symphogear.Notes
             UpdateLinePositions();
         }
 
+        /// <summary>
+        /// Update the size and position of the <see cref="Line"/>.
+        /// </summary>
         private void UpdateLinePositions()
         {
-            LineRenderer.SetPosition(0, StartNote.transform.localPosition);
-            LineRenderer.SetPosition(1, EndNote.transform.localPosition);
+            Line.size = new Vector2(Line.size.x, Mathf.Abs(StartNote.transform.position.y - EndNote.transform.position.y));
+            Line.transform.position = new Vector3(Line.transform.position.x, Line.size.y / 2f, Line.transform.position.z);
+
+            Debug.Log($"Size: {Line.size} Pos: {Line.transform.localPosition}");
         }
 
         #endregion
 
         #region Notes
 
+        /// <inheritdoc cref="Note.ActivateNote"/>
         protected override void ActivateNote()
         {
             base.ActivateNote();
-
-            LineRenderer.startColor = ActiveLineColor;
         }
 
+        /// <inheritdoc cref="Note.DeactivateNote"/>
         protected override void DeactivateNote()
         {
             base.DeactivateNote();
@@ -166,14 +182,17 @@ namespace Symphogear.Notes
                     IsMiss = true
                 });
             }
-
-            AudioSource.Stop();
         }
 
+        /// <summary>
+        /// Calculates the current position of the note on the <see cref="Tracks.SongTrack"/>.
+        /// </summary>
+        /// <param name="deltaT">The delta time between updates.</param>
+        /// <returns>The calculated position of the <see cref="Note"/>.</returns>
         private Vector3 GetNotePosition(float deltaT)
         {
             var direction = NoteClipInfo.SongTrack.GetNoteDirection(deltaT);
-            var distance = deltaT * NoteClipInfo.SongDirector.NoteSpeed;
+            var distance = deltaT * NoteClipInfo.SongDirector.RealNoteSpeed;
             var targetPosition = NoteClipInfo.SongTrack.EndPoint.position;
 
             return targetPosition + (direction * distance);

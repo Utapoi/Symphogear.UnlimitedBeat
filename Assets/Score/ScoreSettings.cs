@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Copyright (c) Utapoi Ltd <contact@utapoi.moe>
+
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 

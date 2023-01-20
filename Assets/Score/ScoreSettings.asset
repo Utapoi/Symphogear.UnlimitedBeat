@@ -16,7 +16,7 @@ MonoBehaviour:
   - Name: Perfect
     IsMiss: 0
     IsBreakCombo: 0
-    PercentageTheshold: 40
+    PercentageTheshold: 60
     Score: 100
     Icon: {fileID: -1518230192, guid: 324b026c000be534b974aaac57c9af45, type: 3}
     Prefab: {fileID: 6843006704414001300, guid: c11242393521ba144a6ef575c399849a, type: 3}
@@ -24,26 +24,26 @@ MonoBehaviour:
   - Name: Great
     IsMiss: 0
     IsBreakCombo: 0
-    PercentageTheshold: 50
+    PercentageTheshold: 100
     Score: 0
     Icon: {fileID: 0}
-    Prefab: {fileID: 0}
+    Prefab: {fileID: 6843006704414001300, guid: a38512eb40dde9844bf265d79acba372, type: 3}
     HitSound: {fileID: 8300000, guid: b1c715a75c2012348ad78e5db0be0d44, type: 3}
   - Name: Good
     IsMiss: 0
     IsBreakCombo: 0
-    PercentageTheshold: 75
+    PercentageTheshold: 125
     Score: 50
     Icon: {fileID: 757404910, guid: 324b026c000be534b974aaac57c9af45, type: 3}
-    Prefab: {fileID: 0}
+    Prefab: {fileID: 6843006704414001300, guid: 2cfc3558be0c3854691e856a2c604a55, type: 3}
     HitSound: {fileID: 8300000, guid: 488763ac581ea5141a4652cdedd9ad29, type: 3}
   - Name: Bad
     IsMiss: 0
     IsBreakCombo: 1
-    PercentageTheshold: 100
+    PercentageTheshold: 150
     Score: 10
     Icon: {fileID: -2094490328, guid: 324b026c000be534b974aaac57c9af45, type: 3}
-    Prefab: {fileID: 0}
+    Prefab: {fileID: 6843006704414001300, guid: b71cd13f420dc5f48aeed8ee29cd24fa, type: 3}
     HitSound: {fileID: 0}
   - Name: Miss
     IsMiss: 1
@@ -51,5 +51,5 @@ MonoBehaviour:
     PercentageTheshold: 0
     Score: 0
     Icon: {fileID: 1820629587, guid: 324b026c000be534b974aaac57c9af45, type: 3}
-    Prefab: {fileID: 0}
+    Prefab: {fileID: 6843006704414001300, guid: c38f1b2f519ab7b4db7fe0435db35e25, type: 3}
     HitSound: {fileID: 0}

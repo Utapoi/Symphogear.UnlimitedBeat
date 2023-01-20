@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: 9990abd5a3857c64bb4e24dc67ea6e18
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RhythmGameSprites_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 864
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f710be2dcc3a1b64cb8f5ac3f9b4dc29
+      internalID: 791119324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 864
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893141a12621b9741ae6264f37ba75b6
+      internalID: 2020686564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_2
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 864
+        width: 246
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ed11028f8f8c846b7310ce4b7753e1
+      internalID: 1476111342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_3
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 864
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab8dd106ccef9245a5d220a62588956
+      internalID: -390427917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlickNoteArrow_01
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 854
+        width: 171
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a43426a388db274cad60398658854f0
+      internalID: -2063554340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillTriggerNote_01
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 742
+        width: 240
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb8d8c657783c343b62830d6329054c
+      internalID: -1474761918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_6
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 742
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38b91257b5235e4a88da3a1ca9228e8
+      internalID: 261470791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlickNote_01
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 742
+        width: 239
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e4b0b00640f4a4286596791d2359dc
+      internalID: -455420108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_8
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 742
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e85050ae6f5d446b186494485c6f04
+      internalID: -1819479828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_9
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 742
+        width: 246
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2672636642bf524ab9d6c0842029d31
+      internalID: 585266758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScoreBonusTrigger_01
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 620
+        width: 240
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74821a06f9cbca041b7ed6cf0333d090
+      internalID: 156004337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_11
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 620
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8805fa61d6478e746a77b64b022642a6
+      internalID: 1163536155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_12
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 620
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a15338376eccd54cb4b94e2174c8581
+      internalID: 1696602269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_13
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 620
+        width: 240
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e6824db64274c40ae9d55653f6c3b1
+      internalID: -1642769678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_14
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 620
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198c1695c741acf46b27baa62cb4eedb
+      internalID: -1944674531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 498
+        width: 241
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd2d88f86b6d3e4e8aaaba24d3764da
+      internalID: -1066714037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_16
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 498
+        width: 240
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafb1960824aa3b489028db9a7ad096f
+      internalID: 1406221213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_17
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 498
+        width: 246
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aff314c0b15b8949a175778ba3f5cbf
+      internalID: -102274808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_18
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 498
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9560ee7761ad02f4db86885ab6d26ed1
+      internalID: -2074304215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_19
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 498
+        width: 246
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfccf6aebdc0eea46944b61dd7000724
+      internalID: 38495201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 376
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3e8c8ad5ec39b439a1d66a338570cd
+      internalID: 1624613402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 376
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73568c6f8a1e1f642ad35e1042b1a17b
+      internalID: 972138181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_22
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 376
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7e6f106caa86e448410d9444467fbe
+      internalID: -488282206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_23
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 376
+        width: 241
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d88c3ee957091408af5e81b854d374
+      internalID: -2129776783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_24
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 376
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44513865f8302648862edb6a1b8f501
+      internalID: -316815879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SingleNote_01
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 376
+        width: 240
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6e35b4edb289847aa043c218ec7dbb
+      internalID: 1356451156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 254
+        width: 246
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4f6bc7e6ab80a478ddebe1a2c6c6b0
+      internalID: -1893387596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_27
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 254
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c8c958990bc474b991fff07ce1926a
+      internalID: -1017383002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_28
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 254
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61e011538f5ed84d9a00fd78298f3e2
+      internalID: -159324748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_29
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 254
+        width: 240
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bef7617b2ab874eb270f0f7acce0ba
+      internalID: -1176782271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_30
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 254
+        width: 246
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c8560c252bd0142b6fd69aff8f8ca4
+      internalID: -509015851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_31
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 254
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45af058b2b5a63841a8dad54cfd80c41
+      internalID: -1223131601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_32
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 132
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9834de156a07c1489d3c1ac41990b12
+      internalID: -755705414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_33
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 132
+        width: 246
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbf925f6f99f9f4e87552810fd9b862
+      internalID: -1272826251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_34
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 132
+        width: 252
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b185231b1a42c424ba53f437b123440e
+      internalID: -702871310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_35
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 132
+        width: 246
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33870210d5b2c4a4c93362af5db01817
+      internalID: 407724307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_36
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 132
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3334d8ebe6c48204ba0114f01ed82172
+      internalID: -1759648937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoteLine_01
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 176
+        width: 297
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69af9076ad592047bbb02527a94c8a6
+      internalID: -1712326074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 10
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ed6fa38da59474180020fcfabf1d32
+      internalID: -1654303365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_39
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 10
+        width: 246
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ed3eafac75d8b43ace0793645cd50a
+      internalID: 1020523801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_40
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 10
+        width: 246
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2818d698c5560e84eaf8a9a5005f9b2e
+      internalID: 1935215648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_41
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 10
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e83dd1b65c1cd42a2099d52ad5ac0c
+      internalID: 1782547762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_42
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 10
+        width: 242
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781be256f161b55498ef7ed34220d133
+      internalID: -197158531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RhythmGameSprites_43
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 10
+        width: 241
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd56be54eb8a8a43a929a08d5a37a51
+      internalID: 1700956718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FlickNote_01: -455420108
+      RhythmGameSprites_33: -1272826251
+      NoteLine_01: -1712326074
+      RhythmGameSprites_11: 1163536155
+      RhythmGameSprites_16: 1406221213
+      RhythmGameSprites_30: -509015851
+      RhythmGameSprites_17: -102274808
+      RhythmGameSprites_6: 261470791
+      RhythmGameSprites_35: 407724307
+      RhythmGameSprites_43: 1700956718
+      RhythmGameSprites_12: 1696602269
+      ScoreBonusTrigger_01: 156004337
+      RhythmGameSprites_27: -1017383002
+      RhythmGameSprites_13: -1642769678
+      RhythmGameSprites_9: 585266758
+      RhythmGameSprites_14: -1944674531
+      RhythmGameSprites_8: -1819479828
+      RhythmGameSprites_39: 1020523801
+      RhythmGameSprites_31: -1223131601
+      RhythmGameSprites_1: 2020686564
+      RhythmGameSprites_3: -390427917
+      RhythmGameSprites_41: 1782547762
+      SingleNote_01: 1356451156
+      RhythmGameSprites_19: 38495201
+      RhythmGameSprites_2: 1476111342
+      RhythmGameSprites_23: -2129776783
+      RhythmGameSprites_21: 972138181
+      RhythmGameSprites_29: -1176782271
+      RhythmGameSprites_38: -1654303365
+      RhythmGameSprites_40: 1935215648
+      RhythmGameSprites_22: -488282206
+      RhythmGameSprites_42: -197158531
+      RhythmGameSprites_26: -1893387596
+      RhythmGameSprites_24: -316815879
+      RhythmGameSprites_20: 1624613402
+      RhythmGameSprites_18: -2074304215
+      RhythmGameSprites_32: -755705414
+      RhythmGameSprites_34: -702871310
+      RhythmGameSprites_28: -159324748
+      RhythmGameSprites_15: -1066714037
+      FlickNoteArrow_01: -2063554340
+      RhythmGameSprites_0: 791119324
+      RhythmGameSprites_36: -1759648937
+      SkillTriggerNote_01: -1474761918
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
